@@ -1,14 +1,3 @@
-## Video Chat Application Example
-
-[Youtube Tutorial link](https://www.youtube.com/watch?v=Jd1RW-0lQOs&t=13s)
-
-#### [@WeCodeTutorials](https://twitter.com/WeCodeTutorials)
-[![Logo](https://cdn.pbrd.co/images/HdwCut8.png)](https://www.youtube.com/channel/UCj9VatwdukZjNOnIKcpWcsA)
-
-This project is made for my youtube tutorial on "Create a SPA with Vue.JS 2, Vue-Router, Vuex and Laravel 5.6".
-
-![App Example](https://media.giphy.com/media/9JkdzNeLr0Jos5CYQk/giphy.gif)
-
 ## get it up and running.
 
 After you clone this project, do the following:
@@ -32,23 +21,6 @@ php artisan key:generate
 # generate Server secret for JWT
 php artisan jwt:secret
 
-# create a local MySQL database (make sure you have MySQL up and running)
-mysql -u root
+#php artisan migrate
 
-> create database vuespa_db;
-> exit;
-
-# add the database connection config to your .env file
-DB_CONNECTION=mysql
-DB_DATABASE=vuespa_db
-DB_USERNAME=root
-DB_PASSWORD=
-
-# run the migration files to generate the schema
-php artisan migrate
-
-# run webpack and watch for changes
-npm run watch
-```
-
-Good Luck :)
+........
